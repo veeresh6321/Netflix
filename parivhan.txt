@@ -1,0 +1,1099 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<meta charset="UTF-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+<!-- noindex	Do not show this page in search results and do not show a "Cached" link in search results.
+	 nofollow	Do not follow the links on this page
+	 none		Equivalent to noindex, nofollow -->
+<META NAME="ROBOTS" CONTENT="NONE">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+
+<title>Home</title>
+
+<link rel="Shortcut Icon" type="image/ico" href='https://sarathi.parivahan.gov.in/cdn-sarathi/images/nhai.ico?v=1.0' />
+
+<link href='https://sarathi.parivahan.gov.in/cdn-sarathi/css/bootstrap/bootstrap-theme.min.css?v=1.0' type="text/css" rel="stylesheet" />
+<link href='https://sarathi.parivahan.gov.in/cdn-sarathi/css/bootstrap/bootstrap.min.css?v=1.0' type="text/css" rel="stylesheet" />
+<link href='https://sarathi.parivahan.gov.in/cdn-sarathi/css/jquery/jquery-ui.min.css?v=1.0' rel="stylesheet" type="text/css" />
+<link href='https://sarathi.parivahan.gov.in/cdn-sarathi/css/sarathi/custom.css?v=1.0' type="text/css" rel="stylesheet" />
+<link href='https://sarathi.parivahan.gov.in/cdn-sarathi/css/sarathi/sarathi_parivahan.css?v=1.0' rel="stylesheet" type="text/css" />
+<link href='https://sarathi.parivahan.gov.in/cdn-sarathi/css/sarathi/sarathi_parivahan_layout.css?v=1.0' type="text/css" rel="stylesheet" />
+<link href='https://sarathi.parivahan.gov.in/cdn-sarathi/css/sarathi/sow4.css?v=1.0' type="text/css" rel="stylesheet" />
+<link href='https://sarathi.parivahan.gov.in/cdn-sarathi/css/fonts/font-awesome.min.css?v=1.0' rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src='https://sarathi.parivahan.gov.in/cdn-sarathi/js/jquery/jquery.min.js?v=1.0'></script>
+<script type="text/javascript" src='https://sarathi.parivahan.gov.in/cdn-sarathi/js/jquery/jquery-ui.min.js?v=1.0'></script>
+<script type="text/javascript" src='https://sarathi.parivahan.gov.in/cdn-sarathi/js/bootstrap/bootstrap.min.js?v=1.0'></script>
+
+<script type="text/javascript" src='https://sarathi.parivahan.gov.in/cdn-sarathi/js/modal.js?v=1.0'></script>
+
+
+
+
+<script type="text/javascript">
+	var is_s5redirection = false;
+	if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		var msViewportStyle = document.createElement("style")
+		msViewportStyle.appendChild(document
+				.createTextNode("@-ms-viewport{width:auto!important}"))
+		document.getElementsByTagName("head")[0].appendChild(msViewportStyle)
+	}
+	
+	 function changeCaptcha(){
+			$("#capimg").attr("src", "jsp/common/captchaimage.jsp?"+(new Date().getTime()));
+			$("#commonCaptcha").val('');
+	}
+	 
+	$(document).ready(function() {
+		//cdac localisation line
+		//$("select.NALOC > option").addClass("NALOC");
+		//end
+		
+// 		loadScript('./js/scripts.js?v=0.1');
+		var windowsize = $(window).width();
+		 if (windowsize > 1600) {  //windowsize > 767
+			$('#bdheight').css("min-height", 400);
+		}
+
+	});
+
+	var width = null;
+	$(document).ready(function() {
+		$('#list').click(function() {
+			//  alert("inside function ready");
+			//alert($('#tableId tr:eq(1) td').length);
+			//	alert("TR Element By Id : "+$('#tr_tableId').length);
+		});
+		
+		/* var timeinter = setInterval(function() {
+			width = $('#tableId tr:eq(1) td').width();
+			if (width > 0) {
+				//  alert("width=="+width);
+				for (var i = 0; i < $('#tableId tr:eq(1) td').length; i++) {
+					// alert("$('#tableId tr:eq(1) td:eq('+i+')').width()====="+$('#tableId tr:eq(1) td:eq('+i+')').width());
+					$('#tableId tr:eq(0) th:eq(' + i + ')').width(
+							$('#tableId tr:eq(1) td:eq(' + i + ')').width());
+				}
+				//	  clearInterval(timeinter);
+			}
+		}, 0); */
+	});
+
+</script>
+
+</head>
+<body>
+<!-- <div id="Sarathi_Lang_ID">Language:</div> -->
+
+
+	<div class="main">
+		<div class="container padding0px">
+			<div class="header">
+				
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<style type="text/css">
+.sarathinew_logo
+{
+width: 100px;
+height: 100px;
+margin-top: -10px;
+}
+.sarathi_parivahantxt
+{
+text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: auto;
+    padding: 17px 0px 0px 0px;
+    margin-left: -32px;
+}
+.ministryofroad_text p
+{
+    color: #ffffff;
+    margin: 0px 0px 0px 0px !important;
+    line-height: 23px;
+    font-family: auto;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.ministryofroad_text
+{
+    margin: 10px 0px 0px -15px !important;
+}
+.india_new_emblem img
+{
+width: 66px;
+height: 85px;
+}
+img
+{
+max-width: none !important;
+}
+/*-------------------*/
+.sarathiheader_page
+{
+background:#1CA6EF; 
+clear:both; 
+padding:5px 0px;
+color:ffffff !important;
+}
+.sarathiheader_page .logo-main > img
+{
+padding: 0 0 0 5%;
+}
+.sarathiheader_page .login_page > li
+{
+margin: 0 0 0 28%;
+}
+
+.font3 {
+	text-shadow: 0px 4px 3px rgba(49, 48, 48, 0.4), 0px 8px 13px rgba(193, 183, 183, 0.1), 0px 18px 23px rgb(234, 226, 226);
+	color: #3081c5;
+	font-weight: bold;
+	text-align: center;
+	font-family: Trebuchet MS;
+	padding-right: 10% !important;
+}
+.input-sm, .form-group-sm .form-control {
+    height: 34px;
+    border: 2px solid #ffffff;
+    background: #ecedee;
+    border-radius: 21px;    
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -58px !important;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -58px !important;
+}
+.header-date
+{
+    color:#1c8fd1;
+}
+.col-md-offset-1 {
+    margin-left: 6.333333%;
+}
+.red
+{
+	color:#ffffff !important;
+}
+
+@media screen and (max-width: 550px) {
+	.font3size {font-size:1.2em;}
+	
+.header {
+   
+    background: #15a7ef !important;
+}
+.sarathiheader_page .logo-main > img
+{
+padding: 0 0 0 0%;
+}
+}
+@media (min-width: 551px) and (max-width: 991px) {
+	.font3size {font-size:1.3em;}
+	.navbar-inverse .navbar-nav > li > a {
+    color: #081e5b !important;
+    font-weight: bold;
+    font-size: 14px;
+}
+.sarathiheader_page .logo-main > img
+{
+padding: 0 0 0 0%;
+}
+.nav > li > a {
+    padding: 6px;
+}	
+.header {
+    
+    background: #15a7ef !important;
+}
+.form-control {
+    margin:  0 0 8px !important;
+}
+}
+@media screen and (max-width: 768px) 
+{
+.sarathinew_logo
+{
+margin-top: -0px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.font3size {font-size:1.3em;}
+}
+@media screen and (min-width: 1200px) {
+	.font3size {font-size:1.3em;}
+}
+</style>
+</head>
+<body>
+<div class="sarathiheader_page">
+	<div class="row">
+		<div class="col-md-7 col-sm-12 col-xs-12">
+			<div class="col-md-8 col-sm-12 col-xs-12">
+			 <div class="ministry_nic_logo padding0px mb_textcenter">
+				<img src="images/logo/ministry-nic-logo.png" alt="Ministrylogo" />
+			</div> 			
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12" style="text-align: right;">
+			 <div class="ministry_nic_logo padding0px mb_textcenter">
+				<img src="images/logo/parivahan-logo.png" alt="Sarathilogo" />
+			</div> 			
+			</div>
+			
+		</div>
+
+		<div class="col-md-3 col-sm-12 col-xs-12 mb_textcenter">
+			<ul class="list-unstyled sarathidate" style="padding-top: 8px; margin-bottom: 0px !important; text-align: center; text-decoration:none;">
+				<li>
+					<div class="sarathidate_time padding0px" style="color:ffffff; font-size:12px;">
+						<label class="margin0px bold" style="color: #000;padding-bottom: 15px;margin-left: -7px;">DATE:</label> <span id="currdate" class="red" class="NALOC"></span>&nbsp&nbsp&nbsp
+						<label style="color: #000; letter-spacing: 0.5px;">TIME:</label> <span id="time" class="" style="color:#ffffff;" class="NALOC"></span>
+					</div>
+				</li>				
+			</ul>
+			<ul class="list-unstyled" style="text-align: center;">
+        			<li>
+        			 <div id="Sarathi_Lang_ID">Language:</div> 
+        			 
+        			</li>				
+        		</ul>		
+		</div>
+					
+		<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 mb_textcenter" style="text-align: center;">
+		<div class="sarathi_login1">
+					<ul class="list-unstyled" style="padding: 6px 0 0 0px;">
+					<li> <span class="font_increase">
+                    <a href="#" id="decfont">A<sup>-</sup></a>
+                </span>
+                <span class="font_increase">
+                    <a href="#" id="resetfont">A</a>
+                </span>
+                <span class="font_increase">
+                    <a href="#" id="incfont">A<sup>+</sup></a>
+                </span></li>
+			        	<li style="margin: 10px 0px 0px 0px;"><a id="login" href="sarathilogin.do" style="background-color: #3c763d;padding: 5px 16px; border-radius: 5px;color:#ffffff !important; letter-spacing: 0.9px; font-size: 13px;text-decoration: none; display: none;">Login</a></li>
+			          <!-- 	<li style="margin-top: 0.7rem;"><div id="Sarathi_Lang_ID">Language:</div></li> -->
+			          	<li style="margin-top: 0.7rem;">
+			        	  	
+			          	</li>
+			        </ul>			        	
+		        </div>		       
+			<div class="sarathi_login">
+				<ul class="list-unstyled" style="padding: 8px 0 0 0px; text-align: center;">
+        			<li><a id="login" href="sarathilogin.do" style="background-color: #3c763d;padding: 5px 23px; border-radius: 5px;color:#ffffff !important; letter-spacing: 0.7px; font-size: 14px;text-decoration: none;">Login</a></li>				
+         
+									<!-- no link -->
+								
+        		</ul>
+        		
+        	</div>
+        </div>
+				    
+	</div>
+</div>
+				
+</body>
+<script> 
+
+	
+	var dateStr=1729668005520
+// 	alert("dateStr value==> "+dateStr);
+	var serverTimeMillisGMT = Date.parse(new Date(dateStr).toUTCString());
+   /*  var localMillisUTC = Date.parse(new Date().toUTCString());
+    offset = serverTimeMillisGMT -  localMillisUTC;
+	var diff=localMillisUTC+offset; */
+	//alert("sertime==> "+msToTime(serverTimeMillisGMT) +" ===local time => "+msToTime(localMillisUTC) +" offsert ===> "+msToTime(offset) +" time==> "+msToTime(diff));
+	var str="AM";
+	var count=0;
+	function msToTime(duration) {
+        var milliseconds = duration % 1000
+            , seconds = Math.floor((duration / 1000) % 60)
+            , minutes = Math.floor((duration / (60 * 1000)) % 60)+30
+            , hours = Math.floor((duration/(1000*60*60))%24)+5+parseInt(minutes>59 ? "1" :"0" );
+//         console.log("hours==> "+hours);
+       
+        if(hours>12){
+            str=hours==24 ? "AM" :"PM";
+        	hours= hours-12;
+        	
+        }
+        
+        if(minutes>59){
+        	minutes= minutes-60;
+        }
+        if(hours>12 && hours<25){
+        	hours=hours-12;
+        	
+        }
+        if(hours==12){
+        	str="PM";
+        }
+        	
+        hours = (hours < 10) ? "0" + hours : hours;
+        minutes = (minutes < 10)   ? "0" + minutes :  minutes ;
+        seconds = (seconds < 10)   ? "0" + seconds :  seconds ;
+        count=seconds;
+		var time=hours + ":" +  minutes + ":" + seconds;
+		
+        return time;
+    }
+    
+function noBack(){ 
+	window.history.forward(1);
+}
+var serverTime = "Wed Oct 23 12:50:05 IST 2024";
+		var localTime = new Date();
+		var ser = new Date(serverTime);
+		var ti = localTime.toLocaleTimeString();
+		var serti = ser.toLocaleTimeString();
+		var myVar = setInterval(function() {
+			myTimer();
+		}, 1000);
+
+		var offset, diff;
+		var localMillisUTC = Date.parse(new Date().toUTCString());
+		offset = serverTimeMillisGMT - localMillisUTC;
+		diff = localMillisUTC + offset;
+		var d = new Date();//time;
+		var curr_date = d.getDate() < 10 ? "0" + d.getDate() : d.getDate();
+		var curr_month = d.getMonth() < 9 ? "0" +(d.getMonth() + 1) : parseInt(d.getMonth()) + 1; 
+		//var curr_month = parseInt(d.getMonth()) + 1;
+		var curr_year = d.getFullYear();
+		var colorArr = new Array();
+		colorArr.push("#FA026A");
+		colorArr.push("#9B02FA");
+		colorArr.push("#4402FA");
+		function myTimer() {
+			try {
+				document.getElementById("currdate").innerHTML = curr_date + "-"
+						+ curr_month + "-" + curr_year;
+				diff = diff + 1000;
+				document.getElementById("time").innerHTML = msToTime(diff)
+						+ " " + str;
+				var i = count % 3;
+				if (i == 0 || i == 1 || i == 2) {
+					var color = Math.floor(Math.random() * 16777215).toString(
+							16);
+					var marq = $("#marq");
+					marq.css('color', colorArr[i]);
+				}
+			} catch (e) {
+			}
+		}
+
+		function brighten(color, percent) {
+			var r = parseInt(color.substr(1, 2), 16);
+			var g = parseInt(color.substr(3, 2), 16);
+			var b = parseInt(color.substr(5, 2), 16);
+
+			return '#' + Math.min(255, Math.floor(r * percent)).toString(16)
+					+ Math.min(255, Math.floor(g * percent)).toString(16)
+					+ Math.min(255, Math.floor(b * percent)).toString(16);
+		}
+	</script>
+	<!--------------------font-size (A, A-, A+)------------------- -->
+	<script> 
+	$('#incfont').click(function () {
+        curSize = parseInt($('body').css('font-size')) + 2;
+        if (curSize <= 24)
+            $('body').css('font-size', curSize);
+    });
+    $('#decfont').click(function () {
+        curSize = parseInt($('body').css('font-size')) - 2;
+
+        if (curSize >= 12)
+            $('body').css('font-size', curSize);
+    });
+    $('#resetfont').click(function () {
+        curSize = parseInt($('body').css('font-size'));
+        $('body').css('font-size', '14px');
+    });
+
+   $('.form-text').bind("cut copy paste", function(e) {
+      e.preventDefault();
+      alert("You cannot paste into this text field.");
+      $('.form-text').bind("contextmenu", function(e) {
+     e.preventDefault();
+  }); });
+
+ $(".faq li > *:not(h4)").hide();
+ $(".faq h4").click(function() {
+ $(this).siblings().slideToggle("slow");
+ });
+	</script>
+
+</html>
+
+			</div>
+			<div class="width100p">
+				
+			</div>
+			<div id="bdheight" class="content">
+				
+
+<html>
+<head>
+<title>Login Info</title>
+<!-- <link href="css/layout.css" rel="stylesheet" type="text/css" /> -->
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="./css/responsiveslides.css" type="text/css" rel="stylesheet" />
+
+<!-- <link href="./css/select2.min.css" rel="stylesheet" /> -->
+
+
+<script type="text/javascript">	
+	function selectState(){
+		var selectedST = $("#stfNameId").val();
+		var covUrl="";
+		var oldUrl="";
+		location.assign(covUrl);
+		/* if(selectedST=='UP' || selectedST=='KL'){
+			location.assign(covUrl);
+		}else{
+			location.assign(oldUrl);
+		} */
+	}
+</script>
+
+<link href="css/responsiveslides.css" type="text/css" rel="stylesheet" />
+
+<style>
+/*  */
+.theme-logo .theme-logo-upper {
+    background: url(../../../content/dam/gtwenty/theme_logo/theme-logo-bg.jpg);
+    background-color: #fcefdf;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0;
+    max-width: 100%;
+    /* min-height: 25pc; */
+    height: 432px;
+    clear: both;
+    overflow: hidden;
+}
+.theme-logo .theme-logo-image {
+    height: 260px;
+    margin: 61pt 75pt 60pt 200px;
+    width: 300px;
+}
+.theme-logo .theme-logo-vid {
+    height: auto;
+    margin: 61pt 75pt 60pt 20px;
+    max-width: 100%;
+    width: 500px;
+    width: 520px;
+}
+/*  */
+
+
+#cssmenu ul ul li:last-child a {
+	border-bottom: 1px solid #32373e
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.online-serv
+{
+	
+    clear: both;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom:-19px;
+}
+.online-serv h4
+{
+    color: #081e5b;
+    letter-spacing: 0.5px;
+    font-family: none;
+    font-size: 18px; 
+    font-weight: 100;
+   
+}
+.navbar {
+    display: none;
+}
+.header{padding:0px;}
+
+@media only screen and (max-width: 600px) {
+
+.online-serv h4
+{  
+    letter-spacing: 0px;
+    font-size: 18px;   
+}
+}
+</style>
+
+</head>
+<body>
+<div class="col-md-12 padding0px"> 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+     <!--  <li data-target="#myCarousel" data-slide-to="0" class="active"></li> -->
+      <!-- <li data-target="#myCarousel" data-slide-to="1"></li> -->
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+    
+      <div class="item active">
+      	<a href="" target="_blank">
+        <img src="images/banner/bannerpic.jpg" alt="" style="width:100%;">
+        </a>
+      </div>
+      
+      <div class="item">
+      	<a href="" target="_blank">
+        	<img src="images/banner/organbanner2.jpg" alt="" style="width:100%;">
+        </a>
+      </div> 
+      <div class="item">
+      	<a href="" target="_blank">
+        	<img src="images/banner/oraganbanner1.jpg" alt="" style="width:100%;">
+        </a>
+      </div>
+      <!--<div class="item">
+      	<a href="" target="_blank">
+        	<img src="images/banner/Banner_IYD_2023_Final.jpeg" alt="" style="width:100%;">
+        </a>
+      </div>-->
+      
+       <!--  -->
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>  
+  </div>
+</div><!--  carousal end-->
+  <!-----------------General scroll---------------------->
+
+<!--  carousal end-->
+ <div style="background-color: #124dac;color: #FFF;font-size: 16px;padding: 11px 0 1px 0;clear: both;letter-spacing: 0.7px;">
+<marquee>Others can live when we agree to give. Take a simple step, donate your organs.There is no bar of age sex and color of organs donation. Come forward and take part in saving numerous lives by organ donation 
+     
+</marquee>
+</div>     
+    <section class="online-serv" style="padding: 25px 0px;">
+	<div class="col-md-12">
+			<div class="padding0px" align="center">
+				<h4>Online services in this portal are available only for the States listed below</h4>
+			</div>			
+			<!--<link href="./css/select2.min.css" rel="stylesheet" />
+<script src="./js/select2.min.js"></script>-->
+
+<style>
+.select2 {
+    width: 300px !important;
+}
+.modal-header {
+    min-height: 41.43px !important;
+
+}
+.state-selectionpage
+{
+max-width:300px;
+margin:auto;
+display:block;
+}
+.select2-container .select2-selection--single 
+{
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 35px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #505050;
+    border-radius: 7px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color:  #081e5b;
+    line-height: 35px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -13px;
+    margin-top: 3px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+}
+@media only screen and (min-width: 600px) {
+
+
+}
+@media only screen and (min-width: 992px) {
+
+
+}
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+</style>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+		<form id="stateSelectBean" name="stSelForm" action="stateSelectBean.do" method="post" class="form-horizontal">
+			<div class="col-md-12 padding0px" align="center"> 					
+				 <h4 style="font-family: Times New Roman, Georgia, Serif; color: green; margin: 0px 0 12px 0; letter-spacing: 0.5px;" class="state-text">
+				      
+				      
+				      		Please select the State from where the service is to be taken
+				      
+				 </h4>
+		          
+					<div class="state-selectionpage">
+
+
+
+					
+						<select name="stName" id="stfNameId" class="form-control input-sm select2" onchange="this.form.submit();">
+						    <option value="0" data-select2-id="2" class="NALOC">---Select State Name---</option>
+						    <option value="AN" >Andaman and Nicobar</option>
+						    <option value="AP" >Andhra Pradesh</option>
+						    <option value="AR" >Arunachal Pradesh</option>
+						    <option value="AS" >Assam</option>
+						    <option value="BR" >Bihar</option>
+						    <option value="CH" >Chandigarh</option>
+						    <option value="CG" >Chhattisgarh</option>						    
+						    <option value="DL" >Delhi</option>
+						    <option value="GA" >Goa</option>
+						    <option value="GJ" >Gujarat</option>
+						    <option value="HR" >Haryana</option>
+						    <option value="HP" >Himachal Pradesh</option>
+						    <option value="JK" >Jammu and Kashmir</option>
+						    <option value="JH" >Jharkhand</option>
+						    <option value="KA" >Karnataka</option>
+						    <option value="KL" >Kerala</option>
+						    <option value="LA" >Ladakh</option>
+						    <option value="LD" >Lakshadweep(UT)</option>
+						    <option value="MP" >Madhya Pradesh</option>
+						    <option value="MH" >Maharashtra</option>
+						    <option value="MN" >Manipur</option>
+						    <option value="ML" >Meghalaya</option>
+						    <option value="MZ" >Mizoram</option>
+						    <option value="NL" >Nagaland</option>
+						    <option value="OD" >Odisha</option>
+						    <option value="PY" >Pondicherry</option>
+						    <option value="PB" >Punjab</option>
+						    <option value="RJ" >Rajasthan</option>
+						    <option value="SK" >Sikkim</option>
+						    <option value="TN" >Tamil Nadu</option>
+						    <option value="TR" >Tripura</option>
+						    <option value="DD" >UT of DNH and DD</option>
+						    <option value="UK" >Uttarakhand</option>
+						    <option value="UP" >Uttar Pradesh</option>
+						    <option value="WB" >West Bengal</option>
+						</select>
+				</div>		 
+			</div>
+		</form>
+
+
+
+			
+<script>
+    $('.select2').select2();
+</script>
+
+		</div>
+	
+</section>
+
+</body>
+<script>
+$(document).ready(function() {
+	var d = new Date();
+	d.setDate(d.getDate() - 1);
+	document.cookie = "STATEID=;expires=" + d + ";path=/";
+});
+</script>
+<script type="text/javascript">
+$(function() {
+	  $('#carousel-example-generic').on('slide.bs.carousel', function() {
+	    var iframe = $(this).find('.item.active iframe');
+	    if(iframe.length > 0) {
+	      console.log('stop youtube video');
+	      iframe[0].contentWindow.postMessage('{"event": "command", "func":"stopVideo", "args": ""}', '*');
+	    }
+	    // $('.item.active iframe')[0].contentWindow.postMessage('{"event": "command", "func":"pauseVideo", "args": ""}', '*')
+	  });
+	});
+</script>
+</html>
+
+
+
+
+			</div>
+<!-- 			<div class="footer"> -->
+				<html>
+<head>
+<style>
+.emblem-resize img {
+    width: auto;
+    height: 70px; 
+    margin-top: 11px;
+}	
+.footer_main
+{
+background-color: #1ca6ef;
+padding: 5px 0px 0px 0px;
+}
+.footer_main ul li a
+{
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.footer_main p
+{
+ color: #ffffff;
+    font-size: 10.5px;
+    letter-spacing: 0.2px;
+    padding: 0 0 0 16px;
+    font-style: italic;
+}
+.footer_chat_box
+{
+text-align: right;
+}
+.left {
+    left: 0;
+    background-color: inherit !important;
+}
+.right {
+    right: 0;
+    background-color: inherit !important;
+}
+.chatbutton {
+        width: 100px;
+        height: 100px;       
+    }
+
+     /* .chatbot {
+	text-align: center;
+}  */
+
+#pdfModal {
+	/* 	z-index: 10000; */
+	}
+
+
+@media ( min-width : 600px) {
+	/* For tablets & desktop: */
+	.chatbutton {
+		width: 100px;
+		height: 100px;
+	}
+	
+}
+@media only screen and (max-width: 600px) {
+	.footer_main p { 
+    padding: 0px 0px 0px 0px;      
+    }
+    .footer_main {
+    
+    text-align: center;
+}
+.footer_chat_box
+{
+text-align: center;
+}
+    }
+    @media only screen and (max-width: 768px) {
+     .footer_main {
+    text-align: center;
+}
+.footer_chat_box
+{
+text-align: center;
+}
+    }
+    
+</style>
+</head>
+<body>
+<!------------------footer------------------>
+<section class="footer_main" style="clear:both;">
+	<div class="container">
+		<div class="row" style="clear:both;">
+			<div class="col-md-8">
+				<!-- <div class="row"> -->
+					<!-- <div class="col-md-10 col-sm-10" style="margin-left: -15px;"> -->
+						<p>Designed, developed and hosted by</p>
+						<div class="col-md-4">
+							<div class="nic_logo">
+								<img src="images/footer/logo.png" alt="NIC" style="cursor: pointer;" onclick="javascript:w=window.open('http://www.nic.in','mywin');">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="gov_logo">
+								<img src="images/footer/digital_logo_main.png" alt="Gov" border="0" style="cursor: pointer;" onclick="javascript:w=window.open('https://www.digitalindia.gov.in','mywin');">
+							</div>
+						</div>	
+						<div class="col-md-5" style="">
+					<ul class="list-unstyled">
+					    <li style="margin-top: 10px;"><a href="" class="organdonor_footerlink">Organ Donor Count : <span id="organCnt_"></span></a></li>						
+					</ul>
+				</div>				
+					<!-- </div> -->
+					
+				<!-- </div> -->
+			</div><!--  -->
+			<div class="col-md-2">
+							<div class="emblem-resize">
+								<img src="images/footer/g20-logo.png" alt="Gov" border="0" style="cursor: pointer;"> 
+						</div>
+						</div>	
+			<div class="col-md-2 col-sm-2 col-xs-12 mb_center footer_chat_box chatbutton" style="cursor:pointer;">		
+			</div>
+		</div>
+	</div>
+</section>
+</body>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.ajax({
+		type : "GET",
+		url : "getOrgnCnt.do",
+		dataType : 'json',
+		success : function(response) {
+			$('#organCnt_').html(response.reditnUrls.organCnt);
+		}
+	});
+});
+</script>
+</html>
+<!-- 			</div> -->
+		</div>
+	</div>
+	
+	
+	  
+	 
+	 <!--<script type="text/javascript"
+		src="https://gistlangserver.in/Content/WSLToolbar/Scripts/GoTranslateWebLocalizer/latest/static/gotwl.min.js"></script>-->
+	<!--<script type="text/javascript"
+		src="https://gotranslate.parivahan.gov.in/Content/WSLToolbar/Scripts/GoTranslateWebLocalizer/latest/static/gotwl.min.js" defer></script>-->
+		<script type="text/javascript"
+		src="https://gotranslate.parivahan.gov.in/Content/WSLToolbar/Scripts/GoTranslateWebLocalizer/latest/static/gotwl.min.js" defer></script>	
+		
+	<script type="text/javascript">
+	
+	//$(document).ready(function() {
+    //cdac localisation line
+    //$("input:not([type=button]):not([type=reset]):not([type=submit])").addClass("NALOC");
+    //$("select, select optgroup,select option,textarea,datalist,datalist > option").addClass("NALOC");
+    //$("table, thead, tbody, tr, th, td, caption, col, colgroup").addClass("NALOC");
+    //end
+//});
+		
+		window.onload = function() {
+		    $("input:not([type=button]):not([type=reset]):not([type=submit])").addClass("NALOC");
+		    $("select, select optgroup,select option,textarea,datalist,datalist > option").addClass("NALOC");
+		    $("table, thead, tbody, tr, th, td, caption, col, colgroup").addClass("NALOC");
+		setLanguageComboBox('Sarathi_Lang_ID');
+		};
+		
+	</script>
+	 
+	    
+    
+	
+</body>
+<!-- Only for public, reset state code if not available. Redirecting to state selection if completely not available. -->
+
+
+
+	<script>
+		function getCookie(cname) {
+		  var name = cname + "=";
+		  var decodedCookie = decodeURIComponent(document.cookie);
+		  var ca = decodedCookie.split(';');
+		  for(var i = 0; i < ca.length; i++) {
+		    var c = ca[i];
+		    while (c.charAt(0) == ' ') {
+		      c = c.substring(1);
+		    }
+		    if (c.indexOf(name) == 0) {
+		      return c.substring(name.length, c.length);
+		    }
+		  }
+		  return "";
+		}
+		
+		$(document).ready(function() {
+			var act = 'http://sarathi.parivahan.gov.in/sarathiservice/stateSelection!clr.do';
+		if ((act.indexOf('stateSelection.do') == -1)
+							&& (act.indexOf('stateSelection!clr.do') == -1)
+							&& (act.indexOf('errmsg.do') == -1)
+							&& (act.indexOf('errorpage.do') == -1)
+							&& (act.indexOf('CscLandingAction.do') == -1)
+							&& (act.indexOf('feedbackMobAuth.do') == -1)
+							&& (act.indexOf('feedback.do') == -1)
+							&& (act.indexOf('feedbackSave.do') == -1)
+							&& (act.indexOf('sarathiApp.do') == -1)
+							&& (act.indexOf('authenticationaction.do') == -1)
+							&& (act.indexOf('instruction.do') == -1)
+							&& (act.indexOf('examselectaction.do') == -1)
+							&& (act.indexOf('stallexamaction.do') == -1)
+							&& (act.indexOf('dlreportaction.do') == -1)
+							&& (act.indexOf('dlqrresultotpreq.do') == -1)) {
+						var cd = getCookie("STATEID");
+						$.ajax({
+							type : "POST",
+							url : "stateRefreshReq.do",
+							dataType : 'json',
+							data : {
+								param : cd
+							},
+							success : function(response) {
+							console.log(response.reditnUrls.redirect);
+								is_s5redirection = response.reditnUrls.isnew;
+								if (response.reditnUrls.redirect === 'reset') {
+									location.assign("stateSelection.do");
+								} else {
+									if ($('#state_inassociation').length) {
+										$("#state_inassociation").html(                   
+												response.reditnUrls.label);
+									}
+								}
+							}
+						});
+					}
+				});
+	</script>
+
+
+
+<script>
+$(document).ready(function() {
+	
+	var loc = "?null";
+	console.log("loc:"+loc);
+	if( loc.split("=")[0] == "?request_locale"){
+		console.log("new myloca:"+loc);
+		$('#selectLang').val(loc);
+		sessionStorage.setItem("SelItem", loc);
+	}else{
+		
+		var selItem = sessionStorage.getItem("SelItem"); 
+		console.log("use sessionstorage:"+selItem)
+	    $('#selectLang').val(selItem);
+	}
+		/* var selItem = sessionStorage.getItem("SelItem");  
+    $('#selectLang').val(selItem);
+    $('#selectLang').change(function() { 
+        var selVal = $(this).val();
+        sessionStorage.setItem("SelItem", selVal);
+    }); */
+    
+      // bind change event to select
+      /* $('#selectLang').change(function () {
+          var url = $(this).val(); 
+          	alert(url);// get selected value
+         // $('#langSelection1').val($(this).val());
+          $("#selectLang").val($(this).val()).trigger("chosen:updated");
+      }); */
+	/* window.onload = function() {
+	    var selItem = sessionStorage.getItem("SelItem");  
+	    $('#selectLang').val(selItem);
+	    }
+	    $('#selectLang').change(function() { 
+	        var selVal = $(this).val();
+	        sessionStorage.setItem("SelItem", selVal);
+	    }); */
+    });
+</script>
+
+</html>
